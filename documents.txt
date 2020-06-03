@@ -14,8 +14,26 @@ git log//all operation done till now 40 digit hashcode
 git branch firstbranch//create branch under master
 git checkout branch firstbranch//moving to new branch,changing directory
 
-
 again add in this branch and commit
 git commit -m "making changes in firstbranch"
 git checkout master//come out
 
+merging the files...
+git merge firstbranch
+
+modify in the first branch
+and then,
+git commit -a -m "modifying Started_test"
+cat Started_test.txt
+git checkout master
+...no modifications....
+cat Started_test.txt
+.........
+Rebassing-another kind of merging
+create 2-3 files
+git add -A
+git commit -a -m "adding for rebasing"
+ls
+.............
+
+--------------------------
