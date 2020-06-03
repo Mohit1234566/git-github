@@ -1,0 +1,5 @@
+git init//initialize a repository
+git remote add origin "...url..link.."//fectch from master
+git pull origin master//fecth all files from central to local repository
+git status// tells u which files are added to index and ready to commit
+git commit //commit version or snapshots of changed project
