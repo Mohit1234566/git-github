@@ -2,4 +2,20 @@ git init//initialize a repository
 git remote add origin "...url..link.."//fectch from master
 git pull origin master//fecth all files from central to local repository
 git status// tells u which files are added to index and ready to commit
+untracked files:which are not added in index 
 git commit //commit version or snapshots of changed project
+git commit -m "adding first commit in local repo" //adding in local repo
+git add -A//add all files in index
+git commit -a -m "adding 3 files together"//commit all
+git log//all operation done till now 40 digit hashcode
+*******how to create branches******
+1.local
+2.central
+git branch firstbranch//create branch under master
+git checkout branch firstbranch//moving to new branch,changing directory
+
+
+again add in this branch and commit
+git commit -m "making changes in firstbranch"
+git checkout master//come out
+
